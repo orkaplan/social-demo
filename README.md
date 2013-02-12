@@ -11,4 +11,4 @@ the example:
 5. delete user's details on logout
 6. display list of logged in users on the '/' page
 
-the demo was given on <a href="http://www.meetup.com/NodeJS-Israel">nodeJS-IL meetup</a>
+the demo was given on the <a href="http://www.meetup.com/NodeJS-Israel">nodeJS-IL meetup</a>
