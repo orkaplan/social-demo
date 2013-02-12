@@ -1,0 +1,23 @@
+<p>ID: <%= user.id %></p>
+<img src="https://graph.facebook.com/<%=user.id%>/picture">
+<p>Username: <a href="<%= user.profileUrl%>"><%= user.username %></a></p>
+<p>Name: <%= user.displayName %></p>
+<p>Friends:
+<% if (friends) { %>
+<%= friends.length %>
+<% } else {%>
+ N/A
+<% } %>
+</p>
+
+<p>Likes:
+<% if (likes) { %>
+  <ul>
+  <% for (var i=0; i<likes.length; i++) { %>
+    <li><%= likes[i].name%></li>
+  <% } %>
+  </ul>
+<% } else {%>
+ N/A
+<% } %>
+</p>

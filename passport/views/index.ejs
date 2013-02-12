@@ -1,0 +1,19 @@
+<p>
+<% if (!user) { %>
+	<h2>Welcome! Please <a href="/auth/facebook">log in.</a></h2>
+<% } else { %>
+	<h2>Hello, <%= user.username %>.</h2>
+<% } %>
+</p>
+
+<p>
+  <% if (!user) { %>
+  no user logged in!
+  <% } else { %>
+    <h3>logged in users:</h3>
+    <% for (var userAccount in users) { %>
+      <p><img src="https://graph.facebook.com/<%=user.id%>/picture"></p>
+    <% } %>
+  <% } %>
+
+</p>
