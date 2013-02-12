@@ -4,6 +4,7 @@
 the demo is based on the example of <a href="https://github.com/jaredhanson/passport-facebook">passport-facebook</a>
 
 the example:
+
 1. uses in memory session, for production consider database or cookie sessions
 2. uses <a href="http://github.com/mren/facebook-api">facebook-api</a> module to get user friends
 3. uses request to get user's likes
