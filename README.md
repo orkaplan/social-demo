@@ -7,7 +7,7 @@ the example:
 
 1. uses in memory session, for production consider database or cookie sessions
 2. uses <a href="http://github.com/mren/facebook-api">facebook-api</a> module to get user friends
-3. uses request to get user's likes
+3. uses <a href="https://github.com/mikeal/request">request module</a> to get user's likes
 4. stores all user's data and access token in memory
 5. delete user's details on logout
 6. display list of logged in users on the '/' page
